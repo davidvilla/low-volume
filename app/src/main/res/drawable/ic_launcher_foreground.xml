@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- "LW" in black, centered in the 108dp adaptive icon canvas (safe zone: 66dp circle). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:translateY="1">
+        <path
+            android:fillColor="#000000"
+            android:pathData="M32,40 H38.5 V59.5 H46 V66 H32 Z M48,40 H54.5 L57.5,54 L60,46 H65 L67.5,54 L70.5,40 H77 L71,66 H65 L62.5,57 L60,66 H54 Z" />
+    </group>
+</vector>
