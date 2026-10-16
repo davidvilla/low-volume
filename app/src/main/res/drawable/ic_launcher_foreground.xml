@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- "LW" in black, centered in the 108dp adaptive icon canvas (safe zone: 66dp circle). -->
+<!-- "LW" and a small speaker in black, the notification icon's composition scaled to the
+     108dp adaptive icon canvas and centered in its safe zone (66dp circle). -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <group android:translateY="1">
-        <path
-            android:fillColor="#000000"
-            android:pathData="M32,40 H38.5 V59.5 H46 V66 H32 Z M48,40 H54.5 L57.5,54 L60,46 H65 L67.5,54 L70.5,40 H77 L71,66 H65 L62.5,57 L60,66 H54 Z" />
+    <group
+        android:scaleX="2.1"
+        android:scaleY="2.1"
+        android:translateX="29.1"
+        android:translateY="28.8">
+        <group
+            android:scaleX="0.37"
+            android:scaleY="0.37"
+            android:translateX="-11.44"
+            android:translateY="-7.61">
+            <path
+                android:fillColor="#000000"
+                android:pathData="M32,40 H38.5 V59.5 H46 V66 H32 Z M48,40 H54.5 L57.5,54 L60,46 H65 L67.5,54 L70.5,40 H77 L71,66 H65 L62.5,57 L60,66 H54 Z" />
+        </group>
+        <group
+            android:scaleX="0.6"
+            android:scaleY="0.6"
+            android:translateX="13.7"
+            android:translateY="4.8">
+            <path
+                android:fillColor="#000000"
+                android:pathData="M7,9v6h4l5,5V4l-5,5H7z" />
+        </group>
     </group>
 </vector>

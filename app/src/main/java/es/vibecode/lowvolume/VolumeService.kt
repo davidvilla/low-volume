@@ -263,7 +263,7 @@ class VolumeService : Service() {
         )
         val title = getString(R.string.notification_title, VolumeLogic.formatDb(Prefs.attenuation(this)))
         return Notification.Builder(this, CHANNEL_ID)
-            .setSmallIcon(R.drawable.ic_volume)
+            .setSmallIcon(R.drawable.ic_notification)
             .setContentTitle(title)
             .setContentText(Prefs.status(this))
             .setContentIntent(open)
